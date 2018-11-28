@@ -28,3 +28,16 @@ terminal -> yarn add kue
 //para validação
 terminal -> yarn add joi
 terminal -> yarn add express-validation
+
+//formatador de erros
+terminal -> yarn add youch
+
+//associar erros das promises
+//UnhandledPromiseRejectionWarning: Error
+terminal -> yarn add express-async-handler
+
+//monitorar os erros
+criar conta no Sentry.io
+criar projeto do tipo Express
+terminal -> yarn add @sentry/node
+server -> middlewares -> this.express.use(Sentry.Handlers.requestHandler())
