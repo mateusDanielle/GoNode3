@@ -15,5 +15,8 @@ terminal -> yarn add mongoose-paginate
 
 //para envio de e-mails
 terminal -> yarn add nodemailer
-//servidores de email (produção) : Amazon SASS , SendGrid, MailGan, Mandriw, SparkPost
+//servidores de email (produção) : Amazon SES , SendGrid, MailGun, mandrill, SparkPost
 //servidores de email (dev) : MailTrap
+
+//template email
+terminal -> yarn add nodemailer-express-handlebars express-handlebars
