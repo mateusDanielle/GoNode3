@@ -8,4 +8,7 @@ terminal -> yarn add mongoose
 terminal -> yarn add jsonwebtoken
 
 //facilitar na importação dos Controllers
-yarn add require-dir
+terminal -> yarn add require-dir
+
+//paginando retorno
+terminal -> yarn add mongoose-paginate
