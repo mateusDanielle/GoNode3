@@ -6,3 +6,6 @@ terminal -> yarn add mongoose
 
 //Trabalhar com tokens
 terminal -> yarn add jsonwebtoken
+
+//facilitar na importação dos Controllers
+yarn add require-dir
