@@ -3,3 +3,6 @@ docker run --name mongonode -p 27017:27017 -d -t mongo
 
 //Instalando Mongoose
 terminal -> yarn add mongoose
+
+//Trabalhar com tokens
+terminal -> yarn add jsonwebtoken
