@@ -12,3 +12,8 @@ terminal -> yarn add require-dir
 
 //paginando retorno
 terminal -> yarn add mongoose-paginate
+
+//para envio de e-mails
+terminal -> yarn add nodemailer
+//servidores de email (produção) : Amazon SASS , SendGrid, MailGan, Mandriw, SparkPost
+//servidores de email (dev) : MailTrap
