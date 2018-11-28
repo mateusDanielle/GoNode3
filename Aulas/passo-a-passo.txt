@@ -41,3 +41,8 @@ criar conta no Sentry.io
 criar projeto do tipo Express
 terminal -> yarn add @sentry/node
 server -> middlewares -> this.express.use(Sentry.Handlers.requestHandler())
+
+//para o uso de variavel de ambientes
+criar arquivo .env
+terminal -> yarn add dotenv
+server -> require('dotenv').config()
