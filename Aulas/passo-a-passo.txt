@@ -24,3 +24,7 @@ terminal -> yarn add nodemailer-express-handlebars express-handlebars
 //instalando Redis para trabalhos em background
 terminal -> docker run --name noderedis -p 6379:6379 -d -t redis:alpine
 terminal -> yarn add kue
+
+//para validação
+terminal -> yarn add joi
+terminal -> yarn add express-validation
